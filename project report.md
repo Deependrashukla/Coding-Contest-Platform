@@ -13,7 +13,7 @@
 CodeHut is a platform designed to simplify hosting and participation in coding contests. Unlike other platforms, it prioritizes user experience and accessibility, enabling anyone from college students to organizations to organize contests without unnecessary hurdles. CodeHut combines intuitive design, robust cheating prevention, and powerful features to create an engaging and fair environment for all users.
 
 ### What is your product about?
-CodeHut is a dedicated coding contest platform that enables seamless hosting and participation in programming competitions. It offers a user-friendly interface, advanced cheating prevention mechanisms, and flexible contest creation tools, making it suitable for various user groups, from individuals to organizations.
+CodeHut is a dedicated coding contest platform that enables seamless hosting and participation in programming competitions. It offers a user-friendly interface, advanced cheating prevention mechanisms, and flexible contest creation tools, making it suitable for various user groups, from college individuals to organizations.
 
 ### Why do you want to build this product?
 The primary motivation behind building CodeHut is to provide an accessible, fair, and efficient coding contest platform. Existing platforms either have high barriers to entry, lack robust cheating prevention, or offer limited customization. CodeHut aims to address these gaps by focusing on usability, fairness, and feature-rich customization.
@@ -54,8 +54,8 @@ The primary motivation behind building CodeHut is to provide an accessible, fair
 
 ### Identify Their Pain Points / Challenges / Needs / Preferences
 - **Students**: Need an accessible platform with fair evaluation and real-time leaderboards.
-- **Coding Clubs**: Require easy contest setup and problem management.
-- **Organizations**: Need cheating prevention and skill assessment tools.
+- **Coding Clubs**: Require easy contest setup and problem management. Hosting conditions are painful.
+- **Organizations**: Need cheating prevention and skill assessment tools. Hosting conditions are painful.
 - **Independent Users**: Seek customizable and user-friendly contest creation features.
 
 ### Prioritize Pain Points
