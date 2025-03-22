@@ -38,6 +38,10 @@ Our platform includes:
 
 ---  
 
+## (UI design and user flow]('https://drive.google.com/file/d/1J40CYI-8NkxylgMF8gDJLl2SuoFl9mXi/view?usp=sharing')
+
+--- 
+
 ## Progress So Far  
 
 - **Completed**:  
