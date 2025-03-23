@@ -2,16 +2,16 @@
 
 ## Schema Overview
 
-MongoDB, being a NoSQL database, uses a document-oriented data model. Instead of using tables with rows and columns like SQL, MongoDB stores data in flexible, JSON-like documents. For this project, we identified the key entities in the SQL schema (*Users, Contests, Problems, etc.*) and restructured them as MongoDB collections.
+MongoDB, being a NoSQL database, uses a document-oriented data model. Instead of using tables with rows and columns like SQL, MongoDB stores data in flexible, JSON-like documents. For this project, we identified the key entities in the SQL schema (**Users, Contests, Problems, etc.**) and restructured them as MongoDB collections.
 
-- *Embedding* is used when entities are tightly related and frequently accessed together.  
-- *References* are used for more complex relationships that need scalability.
+- **Embedding** is used when entities are tightly related and frequently accessed together.  
+- **References** are used for more complex relationships that need scalability.
 
 ## Collections and Data Structures
 
 ### Users Collection
 
-json
+```json
 {
   "_id": "user_id",
   "name": "User's name",
@@ -45,11 +45,11 @@ json
     }
   ]
 }
-
+```
 
 ### Contests Collection
 
-json
+```json
 {
   "_id": "contest_id",
   "host_id": "user_id",
@@ -101,11 +101,11 @@ json
     }
   ]
 }
-
+```
 
 ### Contest Registrations Collection
 
-json
+```json
 {
   "_id": "registration_id",
   "participant_id": "user_id",
@@ -114,11 +114,11 @@ json
   "contest_submission_time": "2023-04-01T12:30:00Z",
   "total_time_taken": 7200
 }
-
+```
 
 ### Submissions Collection
 
-json
+```json
 {
   "_id": "submission_id",
   "contest_id": "contest_id",
@@ -140,11 +140,11 @@ json
     }
   ]
 }
-
+```
 
 ### Problems Collection
 
-json
+```json
 {
   "_id": "problem_id",
   "host_id": "user_id",
@@ -164,14 +164,14 @@ json
     }
   ]
 }
-
+```
 
 ## Key Points
 
-- *Embedding: Used for fields such as details, social_media_links in **Users, and problems, prizes in **Contests* to avoid unnecessary queries and speed up retrieval.
-- *References: Applied in places where relationships need to remain flexible, such as between **Users and Contests* or between *Contests and Problems*, allowing for independent updates.
-- *Test Cases: Stored as embedded documents within the **Problems* collection to maintain simplicity and data consistency.
+- **Embedding**: Used for fields such as `details`, `social_media_links` in **Users**, and `problems`, `prizes` in **Contests** to avoid unnecessary queries and speed up retrieval.
+- **References**: Applied in places where relationships need to remain flexible, such as between **Users and Contests** or between **Contests and Problems**, allowing for independent updates.
+- **Test Cases**: Stored as embedded documents within the **Problems** collection to maintain simplicity and data consistency.
 
 ## Conclusion
 
-This NoSQL schema for a coding contest platform is optimized for performance and flexibility using *MongoDB's document-based model. The combination of **embedding* for frequently accessed data and *referencing* for scalability ensures an efficient schema design.
+This NoSQL schema for a coding contest platform is optimized for performance and flexibility using **MongoDB's document-based model**. The combination of **embedding** for frequently accessed data and **referencing** for scalability ensures an efficient schema design.
