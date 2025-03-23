@@ -74,3 +74,21 @@ The primary motivation behind building CodeHut is to provide an accessible, fair
 5. **Flexible Contest Rules & Scoring** – Hosts can define scoring mechanisms and contest parameters.
 6. **User-Friendly Interface** – Ensures a smooth and intuitive experience for both hosts and participants.
 
+
+## UserFlow Diagram
+
+Please find the userflow diagram in above file named **User flow diagram.png**.
+
+## Schema Design
+
+Please find the NoSql Schema design in the above file named **Schema-design.md.**.
+
+## Figma Designs
+
+Please find here the figma designs for all the application pages. Please change the sectios to see the all pages if needed.
+
+Figma url: [[Please click here to see the designs](https://www.figma.com/design/Wi9Z8nVh3fYZQK9bEg4vtU/Software-Builders?node-id=209-63&t=k7IOKGoE90jsKMWF-1)]
+
+## System Design
+
+Please find above the  xmind create system design pdf named **System design codehut.pdf**.
