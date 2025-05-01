@@ -1,6 +1,6 @@
-# Coding Contest Platform  
 # [View Complete Report](https://docs.google.com/document/d/1eaIkJ5ze6FYAb5-DWTYBeHce5S0HvPPsMnPA980kUFc/edit?usp=sharing)
 
+# Coding Contest Platform  
 ## 🚀 The Problem We Solve  
 
 **Current Challenges**  
