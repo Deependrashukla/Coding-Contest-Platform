@@ -43,11 +43,13 @@ export function UserProvider(props) {
     try {
       await signOut(auth);
       setUser(null);
+
       showSwalAlert({
         icon: "success",
         title: "Logged Out",
         text: "You have been logged out successfully!",
       });
+      
     } catch (error) {
       showSwalAlert({ icon: "error", title: error.code, text: error.message });
     }
