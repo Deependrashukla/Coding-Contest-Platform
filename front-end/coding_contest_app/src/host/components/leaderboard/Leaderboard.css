@@ -1,0 +1,184 @@
+/* Existing CSS code */
+.leaderboard {
+  width: 80%;
+  margin: 80px auto;
+  background: #e5f5f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative; /* Add this to position the search bar absolutely within the leaderboard */
+}
+
+.body {
+  background-color: black;
+}
+.title {
+  text-align: center;
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Add this new CSS for the search bar */
+.search-bar-container {
+  position: absolute;
+  top: 40px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  width: 200px; /* Adjust width as needed */
+  height: 50px;
+}
+
+.search-bar-container input {
+  width: 100%; /* Full width of the container */
+}
+
+.table-responsive {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.tableName {
+  width: 100%; /* Allow table to expand to full width */
+  min-width: 800px; /* Set a minimum width to prevent content squeezing */
+  border-collapse: collapse;
+}
+
+.tableHeader,
+.tableData {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tableHeader {
+  background: #16a085;
+  color: white;
+  white-space: nowrap; /* Prevent headers from breaking into new lines */
+}
+
+.tableRow:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tableRow {
+  height: 60px; /* Add a fixed height for table rows */
+  white-space: nowrap; /* Prevent data in rows from wrapping */
+}
+
+#player-info {
+  display: flex;
+  align-items: center;
+}
+
+#player-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .leaderboard {
+    width: 90%;
+    margin: 80px auto;
+    padding: 15px;
+    position: relative; /* Ensure positioning is relative for the search bar */
+  }
+
+  .search-bar-container {
+    position: static; /* Reset positioning */
+    width: 100%; /* Full width for mobile */
+    text-align: center; /* Center the search bar */
+    margin-bottom: 20px; /* Space below the search bar */
+  }
+
+  .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Enable momentum scrolling on iOS */
+  }
+
+  .title {
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+
+  .tableHeader,
+  .tableData {
+    padding: 10px;
+    text-align: center; /* Center text for better readability on smaller screens */
+  }
+
+  .tableRow {
+    height: auto; /* Allow rows to adjust height based on content */
+  }
+
+  #player-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  #player-info {
+    display: flex;
+    flex-direction: column; /* Stack player image and name vertically */
+    align-items: center;
+  }
+}
+
+/* Add hover effect for rows */
+.tableRow:hover {
+  background-color: var(--table-row-hover-color);
+  /* opacity: 0.5; */
+  animation: blink 0.5s step-end infinite alternate;
+}
+
+/* Pagination container to wrap pagination and items per page controls */
+.pagination-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+
+/* Pagination controls styling */
+.pagination {
+  display: flex;
+  margin: 0;
+}
+
+.pagination button {
+  background-color: #16a085;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #1abc9c;
+}
+
+.pagination button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.pagination button.active {
+  background-color: #1abc9c;
+  font-weight: bold;
+}
+
+/* Items per page selector styling */
+.items-per-page {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  color: var(--text-color);
+}
+
+.items-per-page span {
+  margin-right: 10px;
+}

@@ -1,0 +1,9 @@
+.contest-edit-sidebar {
+  width: 100px;
+}
+.contest-edit-content {
+  padding-left: 250px;
+}
+.contest-edit {
+  background-color: var(--background-color);
+}
