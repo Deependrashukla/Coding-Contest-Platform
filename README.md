@@ -1,5 +1,5 @@
 # Coding Contest Platform  
-# [Report]([url](https://docs.google.com/document/d/1eaIkJ5ze6FYAb5-DWTYBeHce5S0HvPPsMnPA980kUFc/edit?usp=sharing))
+# [View Complete Report]([url](https://docs.google.com/document/d/1eaIkJ5ze6FYAb5-DWTYBeHce5S0HvPPsMnPA980kUFc/edit?usp=sharing))
 
 ## 🚀 The Problem We Solve  
 
