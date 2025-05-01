@@ -1,0 +1,111 @@
+#file-input {
+    display: none;
+  }
+  .custom-file-button {
+    display: block;
+    padding: 10px;
+    background-color: var(--card-color);
+    color: var(--text-color);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+.custom-file-button:hover {
+    background-color: var(--background-color);
+  }
+
+
+/* Define main colors for background and text */
+
+
+/* Customize the main date picker popup */
+.react-datepicker {
+  background-color: var(--background-color); /* Popup background */
+  color: var(--text-color); /* Default text color */
+  border: 1px solid var(--background-color); /* Border matches background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for popup */
+}
+
+/* Header (month/year navigation) */
+.react-datepicker__header {
+  background-color: var(--primary-color); 
+  color: #fff !important; 
+  border: none; /* Remove border */ 
+}
+
+/* Days container */
+.react-datepicker__month-container {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Selected day styles */
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  background-color: var(--primary-color); /* Primary color for selected day */
+  color: #fff; /* White text for visibility */
+  border-radius: 50%; /* Circle shape for selected day */
+}
+
+/* Hover effect for days */
+.react-datepicker__day:hover {
+  background-color: rgb(209, 209, 209) !important; /* Light blue on hover */
+  color: black; /* Text remains dark for visibility */
+}
+
+/* Styling for the time picker container */
+.react-datepicker__time-container,
+.react-datepicker__time-list {
+  background-color: var(--background-color); /* Match background color */
+  border: none; /* Remove borders */
+  color: var(--text-color); /* Text color for time items */
+}
+
+/* Selected time item styles */
+.react-datepicker__time-list-item--selected {
+  background-color: var(--primary-color); /* Primary color for selected time */
+  color: #fff; /* White text for contrast */
+}
+
+/* Hover effect for time items */
+.react-datepicker__time-list-item:hover {
+  background-color: rgb(209, 209, 209) !important; /* Light blue hover */
+  color: black; /* Ensure text is visible */
+}
+
+/* General text color for dates and times */
+.react-datepicker__day,
+.react-datepicker__time-list-item {
+  color: var(--text-color); /* Dark text color for readability */
+}
+
+/* Styling for disabled dates */
+.react-datepicker__day--disabled {
+  background-color: rgb(240, 240, 240); /* Light grey background for disabled days */
+  color: rgb(170, 170, 170); /* Light grey text for visibility */
+  cursor: not-allowed; /* Disabled cursor */
+  opacity: 0.6; /* Reduced opacity for visual distinction */
+}
+
+/* Styling for disabled time items */
+.react-datepicker__time-list-item--disabled {
+  background-color: rgb(240, 240, 240); /* Light grey background for disabled times */
+  color: rgb(170, 170, 170); /* Light grey text */
+  cursor: not-allowed; /* Disabled cursor */
+  opacity: 0.6; /* Reduced opacity for distinction */
+}
+
+/* Optional: Add hover effect for disabled items (won't change on hover) */
+.react-datepicker__day--disabled:hover,
+.react-datepicker__time-list-item--disabled:hover {
+  background-color: rgb(240, 240, 240); /* Same as disabled background */
+  color: rgb(170, 170, 170); /* Same as disabled color */
+}
+
+.react-datepicker-wrapper {
+  width: 100%  !important;
+}

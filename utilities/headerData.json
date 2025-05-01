@@ -1,0 +1,132 @@
+{
+  "host": {
+    "brandData": {
+      "name": "Code Hut",
+      "linksTo": "administration/dashboard"
+    },
+    "pages": [
+      {
+        "name": "Dashboard",
+        "linksTo": "administration/dashboard"
+      },
+      {
+        "name": "Leaderboards",
+        "linksTo": "administration/leaderboard"
+      },
+      {
+        "name": "Host Contest",
+        "linksTo": "administration/contests/create"
+      },
+      {
+        "name": "Manage Contests",
+        "linksTo": "administration/contests"
+      },
+      {
+        "name": "Participate",
+        "linksTo": "participant/dashboard"
+      },
+      {
+        "name": "Support",
+        "linksTo": "support"
+      }
+    ]
+  },
+  "participant": {
+    "brandData": {
+      "name": "Code Hut",
+      "linksTo": "participant/dashboard"
+    },
+    "pages": [
+      {
+        "name": "Dashboard",
+        "linksTo": "participant/dashboard"
+      },
+      {
+        "name": "Leaderboard",
+        "linksTo": "participant/leaderboard"
+      },
+      {
+        "name": "Host Contest",
+        "linksTo": "administration/contests/create"
+      },
+      {
+        "name": "Submissions",
+        "linksTo": "participant/submissions"
+      },
+      {
+        "name": "Analytics",
+        "linksTo": "participant/analytics"
+      },
+      {
+        "name": "Support",
+        "linksTo": "support"
+      }
+    ]
+  },
+  "participantContestDetails": {
+    "brandData": {
+      "name": "Code Hut",
+      "linksTo": "participant/dashboard"
+    },
+    "pages": [
+      {
+        "name": "About",
+        "linksTo": ""
+      },
+      {
+        "name": "Date and Deadlines",
+        "linksTo": "#"
+      },
+      {
+        "name": "Prizes",
+        "linksTo": "#"
+      },
+      {
+        "name": "Register",
+        "linksTo": "participant/dashboard"
+      },
+      {
+        "name": "Support",
+        "linksTo": "support"
+      }
+    ]
+  },
+  "common": {
+    "brandData": {
+      "name": "Code Hut",
+      "linksTo": "home"
+    },
+    "pages": [
+      {
+        "name": "Home",
+        "linksTo": "home"
+      },
+      {
+        "name": "Contact",
+        "linksTo": "contact"
+      },
+      {
+        "name": "Sign Up",
+        "linksTo": "signup"
+      },
+      {
+        "name": "Login",
+        "linksTo": "login"
+      }
+    ]
+  },
+  "profile": [
+    {
+      "name": "Profile",
+      "linksTo": "profile"
+    },
+    {
+      "name": "Settings",
+      "linksTo": "settings"
+    },
+    {
+      "name": "Logout",
+      "linksTo": ""
+    }
+  ]
+}
