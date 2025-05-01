@@ -1,4 +1,5 @@
-# Product Report
+
+# [View Product Report doc](https://docs.google.com/document/d/1eaIkJ5ze6FYAb5-DWTYBeHce5S0HvPPsMnPA980kUFc/edit?usp=sharing)
 
 ## Proposal
 
